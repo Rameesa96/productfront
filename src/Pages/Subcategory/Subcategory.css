@@ -1,0 +1,39 @@
+.subcate{
+   
+    background-color: rgb(22, 22, 64) !important;
+   height: 100vh;
+}
+.grid{
+    background-color: rgb(72, 200, 226) !important;
+}
+@media screen  and (max-width:1024px){
+    .cards{
+        width: 90%;
+        margin: 0 auto;
+        padding:2rem;
+        display: grid;
+        grid-template-columns:1fr 1fr;
+        gap:2rem;
+    }
+    .subcate{
+   
+        background-color: rgb(22, 22, 64) !important;
+       height: auto;
+    }
+}
+@media screen  and (max-width:600px){
+    .cards{
+        padding-top:1rem !important;
+        width: 90%;
+        margin: 0 auto;
+        padding:0rem;
+        display: grid;
+        grid-template-columns:1fr;
+        gap:2rem;
+    }
+    .subcate{
+   
+        background-color: rgb(22, 22, 64) !important;
+       height: auto;
+    }
+}
